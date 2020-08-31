@@ -1,13 +1,12 @@
 <%-include("partials/header")-%>
-<div class=" jumbotron">
-  <div class="row">
-    <p class="h2">Transaction Succcess</p>
-  </div>
-  <div class="row  mx-5">
-    <div class="mx-auto" style="width: 800px;">
-
+<h3>Transaction Success!</h3>
       <table class="table ">
+        <thead>
+          <th></th>
+          <th></th>
+        </thead>
         <tbody>
+
           <tr>
             <td>GATEWAYNAME</td>
             <td><%= data.PAYMENTMODE %></td>
@@ -28,10 +27,10 @@
             <td>RESPCODE</td>
             <td><%= data.RESPCODE %></td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td>TXNID</td>
             <td><%= data.TXNID %></td>
-          </tr>
+          </tr> -->
           <tr>
             <td>TXNAMOUNT</td>
             <td><%= data.TXNAMOUNT %></td>
@@ -55,7 +54,4 @@
           %>
         </tbody>
       </table>
-    </div>
-  </div>
-</div>
 <%-include("partials/footer")-%>

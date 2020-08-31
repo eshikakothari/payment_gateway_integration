@@ -38,8 +38,9 @@ body{
   text-decoration: underline;
 }
 .heading {
+  display: block;
   font-family: 'Chewy', cursive;
-  font-size: 130px;
+  font-size: 100px;
   color: #fff;
 }
 .subheading{
