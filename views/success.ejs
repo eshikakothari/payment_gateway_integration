@@ -1,0 +1,61 @@
+<%-include("partials/header")-%>
+<div class="container jumbotron">
+  <div class="row">
+    <p class="h2">Transaction Succcess</p>
+  </div>
+  <div class="row  mx-5">
+    <div class="mx-auto" style="width: 800px;">
+
+      <table class="table ">
+        <tbody>
+          <tr>
+            <td>GATEWAYNAME</td>
+            <td><%= data.PAYMENTMODE %></td>
+          </tr>
+          <tr>
+            <td>RESPMSG</td>
+            <td><%= data.RESPMSG %></td>
+          </tr>
+          <tr>
+            <td>BANKNAME</td>
+            <td><%= data.BANKNAME %></td>
+          </tr>
+          <tr>
+            <td>PAYMENTMODE</td>
+            <td><%= data.PAYMENTMODE %></td>
+          </tr>
+          <tr>
+            <td>RESPCODE</td>
+            <td><%= data.RESPCODE %></td>
+          </tr>
+          <tr>
+            <td>TXNID</td>
+            <td><%= data.TXNID %></td>
+          </tr>
+          <tr>
+            <td>TXNAMOUNT</td>
+            <td><%= data.TXNAMOUNT %></td>
+          </tr>
+          <tr>
+            <td>ORDERID</td>
+            <td><%= data.ORDERID %></td>
+          </tr>
+          <tr>
+            <td>STATUS</td>
+            <td><%= data.STATUS %></td>
+          </tr>
+          <tr>
+            <td>BANKTXNID</td>
+            <td><%= data.BANKTXNID %></td>
+          </tr>
+          <tr>
+            <td>TXNDATE</td>
+            <td><%= data.TXNDATE %></td>
+          </tr>
+          %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<%-include("partials/footer")-%>

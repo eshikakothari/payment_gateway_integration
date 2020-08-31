@@ -1,0 +1,54 @@
+body{
+  background-image: -webkit-linear-gradient(65deg,#a3f7bf 50%, #29a19c 50%);
+  background-repeat: no-repeat;
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+
+}
+.centered{
+  margin:70px 0 50px 0;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: .8rem;
+  background: #212529;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer li {
+  display: inline;
+  margin: 20px 15px 0px;
+  list-style-type: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.heading {
+  font-family: 'Chewy', cursive;
+  font-size: 130px;
+  color: #fff;
+}
+.subheading{
+  font-family: 'Chewy', cursive;
+  font-size:20px;
+  color: #fff;
+  font-weight:lighter;
+
+}
+.payment_form{
+  margin-top: 50px;
+  background-color: #fff;
+  width: 370px;
+}
